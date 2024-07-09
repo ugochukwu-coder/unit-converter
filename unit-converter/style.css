@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{ 
+  font-family: inter, san sans-serif;
+
+}
+
+.container {
+  max-width: 55rem;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+
+
+  @media only screen and (max-width: 600px) {
+    margin: 0;
+  }
+}
+
+.unit__heading {
+  /* height: 28.5rem; */
+  background-color: #6943FF;
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 28.5rem;
+  margin-bottom: 1.5rem;
+
+
+}
+
+.main__heading {
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 3.8rem;
+  color: #FFFFFF;
+  margin-bottom: 3rem;
+  text-align: center;
+
+  
+  @media only screen and (max-width: 550px) {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+}
+
+#show__number {
+  width: 12rem;
+  height: 8.2rem ;
+
+  font-size:5.8rem ;
+  font-weight: 800;
+  color: #FFFFFF;
+  text-align: center;
+  padding: .5rem 1rem;
+  border: 5px solid #B295FF;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  background-color: #6943FF;
+  
+
+}
+
+
+#btn {
+  display: inline-block;
+  width: 12rem;
+  height: 3rem;
+  border: 2px solid #FFFFFF;
+  font-size: 1.6rem;
+  background-color: #FFFFFF;
+  color: #3D3D3D;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+}
+
+.unit__body {
+  flex-basis: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.heading {
+  background-color: #273549;
+  width: 50rem;
+  height: 10.87rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  text-align: center;
+  padding: 1px;
+
+  
+  @media only screen and (max-width: 700px) {
+   
+    width: 45rem;
+    height:15rem ;
+    padding: 3rem;
+  }
+
+}
+
+.heading:hover {
+  background-color: #FFFFFF;
+}
+
+.length__heading,
+.volume__heading,
+.mass__heading {
+  color: #CCC1FF;
+  font-weight: 600;
+  font-size: 2rem;
+  padding: 2rem;
+  line-height: 2rem;
+
+    
+  @media only screen and (max-width: 600px) {
+    font-weight: 300;
+  }
+
+}
+
+#length__paragraph,
+#volume__paragraph,
+#mass__paragraph {
+  color: #5A537B;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2px;
+
+  @media only screen and (max-width: 600px) {
+    font-weight:300;
+    font-size: 1.3rem;
+  }
+
+}
+
+
+
